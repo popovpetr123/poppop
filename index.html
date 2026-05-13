@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATEAU ROUGE | Grand Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,600&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">CHATEAU ROUGE</a>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#menu-anchor">Меню</a></li>
+                <li><a href="#reviews-page">Отзывы</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ГЛАВНАЯ -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="rich-text">CHATEAU ROUGE</h1>
+            <div class="divider"></div>
+            <p class="subtitle">Легендарный вкус • Эстетика роскоши</p>
+        </div>
+    </section>
+
+    <!-- ГАЛЕРЕЯ -->
+    <section id="gallery" class="gallery">
+        <h2 class="section-title">Интерьер</h2>
+        <div class="grid">
+            <div class="photo-item" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80');"></div>
+            <div class="photo-item" style="background-image: url('https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1000&q=80');"></div>
+            <div class="photo-item" style="background-image: url('https://images.unsplash.com/photo-1550966841-3ee391494371?auto=format&fit=crop&w=1000&q=80');"></div>
+            <div class="photo-item" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=80');"></div>
+        </div>
+    </section>
+
+    <!-- ОГРОМНОЕ МЕНЮ -->
+    <section id="menu-anchor" class="menu-section">
+        <h2 class="section-title">Carte du Restaurant</h2>
+        <button id="toggleMenu" class="btn-menu-rich">Открыть карту блюд</button>
+        
+        <div id="menuContent" class="menu-content hidden">
+            <div class="menu-grid">
+                <!-- Категория 1 -->
+                <div class="menu-col">
+                    <div class="menu-cat">
+                        <h3>Холодные Стартеры</h3>
+                        <ul>
+                            <li><div class="dish">Устрицы Фин де Клер <small>6 шт / лимонный соус</small></div> <span>3 600 ₽</span></li>
+                            <li><div class="dish">Тартар из ягненка <small>с чипсами из топинамбура</small></div> <span>1 350 ₽</span></li>
+                            <li><div class="dish">Крабовый салат <small>с камчатским крабом и манго</small></div> <span>1 850 ₽</span></li>
+                            <li><div class="dish">Карпаччо из осьминога <small>с каперсами</small></div> <span>2 100 ₽</span></li>
+                        </ul>
+                    </div>
+                    <div class="menu-cat">
+                        <h3>Супы</h3>
+                        <ul>
+                            <li><div class="dish">Консоме из фазана <small>с лесными грибами</small></div> <span>980 ₽</span></li>
+                            <li><div class="dish">Гаспачо с креветками <small>авторская подача</small></div> <span>850 ₽</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Категория 2 -->
+                <div class="menu-col">
+                    <div class="menu-cat">
+                        <h3>Основные шедевры</h3>
+                        <ul>
+                            <li><div class="dish">Стейк Шатобриан <small>на двоих / овощи гриль</small></div> <span>7 200 ₽</span></li>
+                            <li><div class="dish">Спинка косули <small>с брусничным взваром</small></div> <span>3 400 ₽</span></li>
+                            <li><div class="dish">Черная треска <small>в мисо-глазури</small></div> <span>2 900 ₽</span></li>
+                            <li><div class="dish">Ризотто с золотом <small>и белым трюфелем</small></div> <span>3 100 ₽</span></li>
+                            <li><div class="dish">Лопатка ягненка <small>томленая 12 часов</small></div> <span>2 650 ₽</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Категория 3 -->
+                <div class="menu-col">
+                    <div class="menu-cat">
+                        <h3>Десерты & Сыр</h3>
+                        <ul>
+                            <li><div class="dish">Сырная тарелка Grand <small>5 видов редких сыров</small></div> <span>2 400 ₽</span></li>
+                            <li><div class="dish">Золотой трюфель <small>черный шоколад / сусальное золото</small></div> <span>1 200 ₽</span></li>
+                            <li><div class="dish">Сорбет из шампанского <small>с лепестками роз</small></div> <span>650 ₽</span></li>
+                        </ul>
+                    </div>
+                    <div class="menu-cat">
+                        <h3>Барная карта</h3>
+                        <ul>
+                            <li><div class="dish">Chateau Petrus <small>Vintage 2010</small></div> <span>185 000 ₽</span></li>
+                            <li><div class="dish">Коктейль "Rouge" <small>авторский микс</small></div> <span>1 100 ₽</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ОТДЕЛЬНАЯ СТРАНИЦА ОТЗЫВОВ -->
+    <section id="reviews-page" class="reviews-page">
+        <div class="reviews-header">
+            <h2 class="section-title">Голоса наших гостей</h2>
+            <p>Мы гордимся каждым словом</p>
+        </div>
+        
+        <div class="reviews-grid">
+            <!-- Отзывов теперь действительно много -->
+            <div class="rev-card">
+                <div class="rev-stars">★★★★★</div>
+                <p>"Это было гастрономическое путешествие! Интерьер в глубоком бордо — просто восторг."</p>
+                <div class="rev-user">Сергей Магнат</div>
+            </div>
+            <div class="rev-card">
+                <div class="rev-stars">★★★★★</div>
+                <p>"Лучшая винная карта в моей жизни. Сомелье знает свое дело на 200%."</p>
+                <div class="rev-user">Елена Виноградова</div>
+            </div>
+            <div class="rev-card">
+                <div class="rev-stars">★★★★★</div>
+                <p>"Атмосфера тихой роскоши. Стейки идеальной прожарки, сервис незаметен и безупречен."</p>
+                <div class="rev-user">Андрей Павлович</div>
+            </div>
+            <div class="rev-card">
+                <div class="rev-stars">★★★★★</div>
+                <p>"Забронировали столик у окна на закате — это было незабываемо. Спасибо за вечер!"</p>
+                <div class="rev-user">Юлия и Артем</div>
+            </div>
+            <div class="rev-card">
+                <div class="rev-stars">★★★★★</div>
+                <p>"Десерты здесь — это отдельный вид искусства. Золотой трюфель покорил мое сердце."</p>
+                <div class="rev-user">Марина Модная</div>
+            </div>
+            <div class="rev-card">
+                <div class="rev-stars">★★★★★</div>
+                <p>"Регулярно проводим здесь бизнес-ланчи. Очень статусное и вкусное место."</p>
+                <div class="rev-user">Игорь Геннадьевич</div>
+            </div>
+            <div class="rev-card">
+                <div class="rev-stars">★★★★★</div>
+                <p>"Потрясающий выбор морепродуктов. Устрицы свежайшие, как на побережье Франции."</p>
+                <div class="rev-user">Олег Т.</div>
+            </div>
+            <div class="rev-card">
+                <div class="rev-stars">★★★★★</div>
+                <p>"Живая музыка и бокал красного вина в этом интерьере — лучший антистресс."</p>
+                <div class="rev-user">Наталья С.</div>
+            </div>
+            <div class="rev-card">
+                <div class="rev-stars">★★★★★</div>
+                <p>"Внимание к деталям поражает. От текстиля на столах до подачи комплемента от шефа."</p>
+                <div class="rev-user">Владислав Р.</div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const btn = document.getElementById('toggleMenu');
+        const menu = document.getElementById('menuContent');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            btn.textContent = menu.classList.contains('hidden') ? 'Открыть карту блюд' : 'Скрыть карту блюд';
+        });
+    </script>
+</body>
+</html>
